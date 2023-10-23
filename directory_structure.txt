@@ -1,0 +1,20 @@
+./configs                 # The most likely places to modify, regarding data, paths, models that need to be tested, etc.
+./configs/_base_
+./mm_custom               # codes about datasets and models
+./mm_custom/datasets
+./mm_custom/datasets/transforms
+./mm_custom/models
+./mm_custom/models/atd_nets
+./mm_custom/models/backbones
+./mm_custom/models/decode_heads
+./mm_custom/models/neck
+./mm_custom/evaluation
+
+./tools           
+./tools/data_preprocess       
+./ops_dcnv3
+./work_dirs         
+./data
+./data/processed   # Some intermediate files, such as weight files, train_val.csv files, etc.
+./submit
+./submission

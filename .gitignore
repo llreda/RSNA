@@ -1,0 +1,7 @@
+work_dirs/
+submit/
+.dist_test/
+*__pycache__/
+docs/
+*.zip
+checkpoints/*

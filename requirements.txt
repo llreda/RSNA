@@ -1,0 +1,12 @@
+yapf==0.33.0
+pydicom==2.4.2
+timm==0.6.12
+albumentations==1.3.1
+pandas==2.0.1
+prettytable==3.7.0
+torch==2.0.0
+torchvision==0.15.1
+opencv-contrib-python==4.8.0.76
+mmengine==0.7.3
+mmcv==2.0.0
+mmdet==3.0.0
