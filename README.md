@@ -88,7 +88,7 @@ Must check if the `root` and `process_root` are correct, then run
 Experiment records and model output will be stored in work_dirs.
 
 ## Trained Models 
-[Here](https://drive.google.com/drive/folders/14avZb6KQrXOruEk-KebWphap38r24Ro1?usp=share_link) are several trained models, Please download and place them in the `checkpoints` directory
+[Here](https://drive.google.com/file/d/1xEsT-28Q7_F0r83UoL3DkQIhOYgp-eJJ/view?usp=share_link) are several trained models, Please download and place them in the `checkpoints` directory
 
 Each subdirectory has a weight file and a configuration file, with the following file structure:
 
@@ -113,7 +113,7 @@ the  `cfg_files_list` , `load_froms_list` in `configs/setting.py` defines the mo
 
 After downloading the weight file as described above， then run 
 
-`python submit.py` 
+`sh tools/predict.sh` 
 
 to predict, the results will in the `SUBMISSION_DIR`.
 
@@ -143,13 +143,13 @@ to predict, the results will in the `SUBMISSION_DIR`.
 ```
 
 ## Submission scores
-on the leadboard, my final submission is ensembled by ten models. The results are 
+on the leadboard, my submission is ensembled by **ten** models. The results are 
 
 - public:  0.4084
 - private:  0.4126 
 
 
-This code repository is a modified and pure version. Three models were retrained and submitted. The results are:
+This code repository is a modified and pure version. **Three** models were retrained and submitted. The results are:
 
-- public:  0.4084
-- private:  0.4126
+- public:  0.40244
+- private:  0.42373
